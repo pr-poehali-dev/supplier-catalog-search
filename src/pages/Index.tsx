@@ -174,7 +174,8 @@ const Index = () => {
 
       <div className="container mx-auto px-6 py-8">
         {currentPage === 'catalog' && (
-        <div className="mb-8">
+          <>
+            <div className="mb-8">
           <div className="flex items-center gap-2 text-sm text-[#8A898C] mb-4">
             <span>Главная</span>
             <Icon name="ChevronRight" size={16} />
@@ -480,6 +481,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+          </>
         )}
 
         {currentPage === 'favorites' && (
